@@ -4,7 +4,7 @@ import joblib
 import base64
 
 # Load trained model
-model = joblib.load("model/student_model.pkl")
+model = joblib.load("Model/student_model.pkl")
 
 # Page configuration
 st.set_page_config(
